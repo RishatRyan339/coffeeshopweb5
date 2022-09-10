@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+@import url('./variables.css');
+
+@import url('./_globle.css');
+/*nav */
+
+.header_area .main-menu .navbar-brand{
+
+    padding: 0 4rem 0 6rem;
+
+
+}
+
+.header_area .main-menu .navbar{
+    padding:1rem 20rem;
+    z-index: 1000;
+    background-color: #000;
+    position:fixed;
+    width: 100%;
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+   font: normal 500 15px/2px var(--roboto);
+    font-family:var(--roboto);
+   text-transform:uppercase;
+   font-weight:500;
+   padding:1.7rem;
+   color:wheat;
+}
+
+
+.header_area .main-menu .navbar-nav .active a{
+    background:var(--gradiant-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+
+.header_area .main-menu .navbar-nav a:hover{
+    background:var(--gradiant-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+
+.header_area .main-menu .d-flex .form-control {
+    background:wheat;
+   
+}
+
+.header_area .main-menu .d-flex .btn-outline-success{
+background-color:transparent;
+border:1px solid black;
+}
+
+.header_area .main-menu .d-flex .bi-search {
+    color: #ffffff;
+   
+}
+
+
+.header_area .main-menu .d-flex .bi-search:hover {
+    color:wheat;
+   
+}
+/*nav  end */
+
+
+/*Banner start  */
+
+
+.site-main .site-banner{
+    background-image:url("images/home\ \(2\).jpg");
+    height: 100%;
+    width:100%;
+    padding-top:47%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.site-main .site-banner .site-title h3{
+    text-align: center;
+    font-weight:500;
+    color: #ffffff;
+
+    
+}
+
+.site-main .site-banner .site-title h1{
+
+}
+ .site-title p {
+   text-align: center;
+  color:white;
+}
+
+.site-banner .site-title .site-buttons .primary-button{
+text-align: center;
+margin-left: 39%;
+margin-top:5%;
+
+
+
+}
+.site-main .site-title {
+    margin-top:40%;
+    margin-left:15%;
+    text-align:left;
+    justify-content: center;
+    
+  
+}
+
+.layer{
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 118%;
+    width: 100%;
+    
+    top:-21.5%;
+   position:absolute; 
+  z-index:0;
+  
+
+   
+}
+
+
+
+
+
+.site-main .site-banner .site-title h1{
+    font-size:5rem;
+    color: #ffffff;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size:1.5rem;
+    color: #ffffff;
+}
+
+ .site-banner .banner-image >img{
+    
+    padding-top:20%;
+   
+    width:90rem;
+}
+
+
+.title-text {
+    font:normal bold 50px/72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Banner End  */
+
+/*About Start  */
+
+
+
+.site-main .about-area {
+    padding:8rem 5rem;
+    margin-top:5%;
+   
+}
+ .about-area img{
+border-radius: 10%;
+height: 450px;  
+width: 730px; 
+
+}
+.site-main .about-area .about-title h2> span{
+    display:block;
+    font:normal bold 49px/60px var(--robot);
+    letter-spacing:21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/*About End  */
+
+/* Start Brand Area*/
+
+
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+
+.site-main .brand-area h1{
+    font-size:4rem;
+    padding:0 14rem;
+}
+
+.site-main .brand-area p{
+    font-size:1rem;
+    font-weight: lighter;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding-bottom: 5rem;
+    margin: .9rem 0;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.2);
+}
+
+ .brand-area .first-row .col-lg-4 > .single-brand  img{
+height:100%;
+width:100%;
+object-fit:cover;
+float:left;
+}
+
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    background-color: rgb(105, 92, 75) no-repeat 45px 20px;
+    padding: 2rem 0; 
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index:-1;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem;
+}
+
+
+/* End Brand Area*/
+
+
+/* Enter Service*/
+
+
+.services-area .carousel-control-prev-icon{
+   background-color:black;
+}
+
+.services-area .carousel-control-next-icon{
+    background-color:black;
+ }
+ 
+
+.services-area .casrousel-inner {
+    width:40px;
+    height:660px;
+}
+
+.services-area .carousel img {
+    width:460px;
+    height:460px;
+    padding-right:35%;
+    padding-left: 35%;
+    object-fit: cover;
+    float:left;
+    cursor: pointer;
+
+  }
+
+  .services-area .carousel-caption  {
+background-color: rgba(0, 0, 0, 0.363);
+margin-right:20%;
+    margin-left: 20%;
+  }
+
+ 
+
+
+/* End Service*/
+
+
+/* Project start */
+
+
+.site-main .project-area{
+    padding: 4rem 0;
+    overflow: hidden;
+}
+.site-main .project-area h1{
+   margin-left:35%;
+}
+
+.site-main .project-area span{
+    margin-left:20%;
+}
+
+.site-main .project-area .button-group {
+    margin-left:20%;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+ 
+}
+
+ .project-area .button-group button.active{
+color:rgb(187, 13, 71);
+
+}
+    
+.project-area .button-group button:hover{
+    color:rgb(187, 13, 71);
+ 
+}
+.project-area img{
+    height:100%;
+    width:100%;
+    z-index:0%;
+ object-fit: cover;
+ overflow: hidden;
+transition:0.4s;
+
+}
+      
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+    margin-left:20%;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    /* filter:  drop-shadow(1px 8px 40px #b1afaf);
+    transition:filter.5s ease; */
+    transform: scale(1.1);
+    transition:transform.5s ease;
+    overflow: hidden;
+}
+
+
+
+.site-main .project-area button .active {
+  background-color:palevioletred;
+}
+
+
+/* Project End */
+
+
+/* About Me Starts */
+
+
+
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+ .about-area .client .client-img img{
+    padding: 2rem;
+    height: 100%;
+   width: 150%;
+   object-fit: cover;
+   z-index: -1;
+   border-radius:60%;
+
+
+
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* About Me Ends */
+
+
+/* Subscribe Me Starts */
+
+
+.contact {
+   
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding:2rem 7%;
+    
+  }
+  
+  
+ .contact #gedintouch {
+    position: relative;
+    left:35%;
+ }
+  
+  
+  .contact  #reserveid{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    position: relative;
+   
+    font-size:3.4rem;
+  }
+  
+  
+  .contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    
+  }
+  
+  
+  .contact .row .map{
+  flex:1 45rem;
+  margin-top:-10%;
+  width: 180%;
+  object-fit: cover;
+  border:2px solid black;
+  }
+
+  .contact  .col-md-6{
+    padding-left:10%;
+    padding-right: 10%;
+  }
+
+  .contact .col-md-6 .form-group{
+    margin-top:5%;
+  }
+
+  .border{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+  }
+  .contact .col-md-6 .btn{
+    margin-top:5%;
+    padding: .8rem 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    border: 1px solid bisque;
+ 
+   background:var(--gradiant-color);
+   color:white;
+  }
+  
+  .contact-form{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+   
+    
+    
+  }
+  
+  .contact .row form{
+    flex:1 1 45rem;
+   
+    
+  }
+  
+  .contact-form-text{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin:16px 0;
+    
+    border: 1px solid black;
+      padding:20px 40px;
+    outline:none;
+   
+    color:black;
+  
+    background-color: rgb(241, 236, 236);
+  }
+  
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+
+
+/* Subscribe Me Ends */
+
+
+footer.footer-area{
+    padding: 5rem 0;
+    background-color:#ffffff;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color:blanchedalmond;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
